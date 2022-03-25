@@ -1,0 +1,40 @@
+table, th, td{
+  border: 1px solid #fff;
+  margin:15px
+}
+
+table{
+  width: 1200px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 5px rgba(255, 255, 255, .30);
+  background-color:aliceblue;
+}
+
+th, td{
+  padding: 20px;
+}
+
+table th{
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin: 50px;
+  font-size: 25px;
+}
+
+table tr td{
+  font-size: 20px;
+}
+
+th{
+  font-size: 30px;
+}
+
+table, th, td{
+  color: white;
+  background-color: #000;
+}
+
+body{
+  background-color: black;
+}

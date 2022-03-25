@@ -1,0 +1,30 @@
+table, th, td{
+  border: 0px solid #000;
+  /* border-collapse: collapse; */
+  margin:15px
+}
+
+th, td{
+  padding: 20px;
+  width: 100px;
+}
+
+csstitle{
+  color: rgb(0, 110, 255);
+}
+
+.adaptiontable{
+  width: 1000px;
+  height: 600px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 5px;
+}
+
+.titlerow{
+  border-bottom: 1px dashed grey;
+}
+
+
+
+
