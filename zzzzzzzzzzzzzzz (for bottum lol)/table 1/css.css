@@ -1,0 +1,20 @@
+table td:nth-child(1) {
+  color: orange;
+}
+
+table {
+  width: 900;
+}
+
+th,
+td {
+  padding: 10px 10px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+table thead tr:nth-child(1n) {
+  border-top: 2px solid black;
+}
