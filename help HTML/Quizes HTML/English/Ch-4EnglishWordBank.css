@@ -1,45 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-cssheading{
+cssheading {
   color: rgb(48, 48, 236);
   font-size: 35px;
 }
 
-bcssheading{
+bcssheading {
   font-size: 30px;
 }
 
-table, th, td{
+table,
+th,
+td {
   border: 1px solid #000;
-  margin:15px
-  
+  margin: 15px
 }
 
-table{
+table {
   width: 1200px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, .30);
-  background-color:aliceblue;
-  margin:25px auto;
+
+  background-color: aliceblue;
+  margin: 25px auto;
   font-family: "Montserrat", sans-serif;
 }
 
-th, td{
+th,
+td {
   padding: 20px;
 }
 
-table th{
+table th {
   letter-spacing: 1px;
   font-size: 16px;
   margin: 50px;
 }
 
-th,td{
+th,
+td {
   width: 600px;
 }
 
-th,td{
+th,
+td {
   font-size: 29px;
   height: 70px;
 }
@@ -49,52 +53,54 @@ th,td{
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
-  padding:0;
+  padding: 0;
   background-color: #24252A;
 }
 
-li, a, button{
+li,
+a,
+button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color:#ecf0f1;
+  color: #ecf0f1;
   text-decoration: none;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
 }
 
-img{
-  width:200px;
-  height:50px;
+img {
+  width: 200px;
+  height: 50px;
   cursor: pointer;
 }
 
-.nav_links{
+.nav_links {
   list-style: none;
 }
 
-.nav_links li{
-  display:inline-block;
+.nav_links li {
+  display: inline-block;
   padding: 0px 20px;
 }
 
-.nav_links li a{
+.nav_links li a {
   transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover{
+.nav_links li a:hover {
   color: #0088a9;
 }
 
-button{
+button {
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
@@ -103,7 +109,6 @@ button{
   transition: all 0.3s ease 0s;
 }
 
-button:hover{
+button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
-
